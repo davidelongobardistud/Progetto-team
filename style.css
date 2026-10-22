@@ -165,3 +165,55 @@
   .main-nav a::after { display: none; }
   .nav-sale { margin-left: 0; }
 }
+/* ===== Sezione Servizi ===== */
+.servizi {
+  padding: 40px 20px;
+  background-color: #f4f6f9;
+  text-align: center;
+}
+
+.servizi h2 {
+  color: #1B365D;
+  margin-bottom: 10px;
+}
+
+.servizi-intro {
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.servizi-griglia {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #1B365D;
+  margin-bottom: 10px;
+}
+
+.card-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: #1B365D;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Stile del footer (Dev 2) */
+.footer { background-color: #1B365D; color: white; padding: 20px; text-align: center; }
